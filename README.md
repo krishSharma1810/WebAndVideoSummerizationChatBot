@@ -35,33 +35,15 @@ cd WebAndVideoSummerizationChatBot
    ```
 3. Run the backend:
    ```sh
-   python app.py
+   streamlit run app.py
    ```
 
-### Frontend Setup
-1. Navigate to the frontend directory:
-   ```sh
-   cd frontend
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the frontend:
-   ```sh
-   npm start
-   ```
+
 
 ## Usage
 1. Enter a webpage URL or upload a video/PDF.
 2. The AI processes the content and generates a summary.
 3. Use the chatbot interface to ask further questions.
-
-## Technologies Used
-- Python (Flask/FastAPI)
-- React.js (Frontend)
-- NLP Libraries (spaCy, Transformers, OpenAI API)
-- FFMPEG (for video processing)
 
 ## Contributing
 Contributions are welcome! Follow these steps:
